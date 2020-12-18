@@ -11,7 +11,7 @@ if (major < 10) {
     "You are running Node " +
       currentNodeVersion +
       ".\n" +
-      "boss-cli requires Node 10 or higher. \n" +
+      "bsfe-cli requires Node 10 or higher. \n" +
       "Please update your version of Node."
   );
   process.exit(1);

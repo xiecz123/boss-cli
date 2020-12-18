@@ -1,2 +1,3 @@
-# boss-cli
+# bs-cli
+
 create vue template cli

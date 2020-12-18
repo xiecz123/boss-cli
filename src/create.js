@@ -97,9 +97,7 @@ const getAnswer = async (projectName) => {
 const createTemplate = async (projectName) => {
   if (!projectName) {
     console.error(
-      chalk.red(
-        "no project name was given \nexample: boss-cli create myProject"
-      )
+      chalk.red("no project name was given \nexample: bs-cli create myProject")
     );
     process.exit(1);
   }

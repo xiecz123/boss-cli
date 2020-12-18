@@ -7,12 +7,12 @@ const init = function () {
     create: {
       alias: "c",
       description: "create a project",
-      examples: ["boss-cli create <project-name>"],
+      examples: ["bs-cli create <project-name>"],
     },
     // config: {
     //   alias: "conf",
     //   description: "config project variable",
-    //   examples: ["boss-cli config set <k> <v>", "boss-cli config get <k>"],
+    //   examples: ["bs-cli config set <k> <v>", "bs-cli config get <k>"],
     // },
     "*": {
       alias: "",
