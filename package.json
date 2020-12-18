@@ -1,10 +1,10 @@
 {
-  "name": "boss-cli",
+  "name": "bsfe-cli",
   "version": "1.0.0",
   "description": "create vue template cli",
   "main": "index.js",
   "bin": {
-    "boss-cli": "bin/index.js"
+    "bs-cli": "bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
