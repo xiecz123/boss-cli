@@ -15,6 +15,21 @@ const {
   GITHUB_API_HOST,
 } = require("./constants");
 
+// TODO 后期需要把成功提示加上
+function successConsole(config, projectName) {
+  console.log("");
+  console.log(`${chalk.gray("项目路径：")} ${path.resolve(projectName)}`);
+  console.log(chalk.gray("接下来，执行："));
+  console.log("");
+  console.log("      " + chalk.green("cd ") + projectName);
+  if (config.isNpmInstall != "yes") {
+    console.log("      " + chalk.green("npm install"));
+  }
+  console.log("      " + chalk.green("npm run dev"));
+  console.log("");
+  console.log(chalk.green("enjoy coding ..."));
+}
+
 // https://api.github.com/repos/vuejs/vue/tags
 // 获取该项目的 tags
 const fechTagList = async (repo) => {
