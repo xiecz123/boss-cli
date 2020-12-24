@@ -2,7 +2,7 @@
   "name": "bsfe-cli",
   "version": "1.0.1",
   "description": "create vue template cli",
-  "main": "index.js",
+  "main": "./bin/index.js",
   "bin": {
     "bs-cli": "bin/index.js"
   },
